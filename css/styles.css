@@ -120,6 +120,7 @@ body {
 .hero {
     background-color:#0EB4C1;
     color: #ffffff;
+    position: relative;
 }
 .hero-content {
     width: 500px;
@@ -132,6 +133,9 @@ body {
 .hero-img {
     width: 423px;
     height: 504px;
+    position: absolute;
+    right: 10.2%;
+    top: 34%;
 }
 .hero-heading {
     margin-bottom: 16px;
