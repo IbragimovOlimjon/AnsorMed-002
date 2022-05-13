@@ -7,6 +7,7 @@
     --logo-bg:#222;
     --hero-bg:#0Eb4C1;
     --font:'Open Sans', 'Arial', sans-serif;
+    --font-title:'Open Sans Condensed', 'Arial', sans-serif;
 }
 
 
@@ -25,6 +26,16 @@
     src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
     url('../fonts/OpenSans-Regular.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* CONDESED */
+@font-face {
+    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
+    src: url('../fonts/OpenSansCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSansCondensed-Bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -169,6 +180,7 @@ img {
     justify-content: space-between;
 }
 .hero__content {
+    width: 500px;
     padding: 120px 0px 120px 0px;
     margin-right: 177px;
 }
@@ -179,6 +191,7 @@ img {
     line-height: 120%;
     margin: 0;
     margin-bottom: 16px;
+    font-family: var(--font-title);
 }
 
 .hero__text {
@@ -193,6 +206,7 @@ img {
     padding: 12px 24px;
     color: var(--color);
     background-color: var(--color-link);
+    font-family: var(--font-title);
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
@@ -232,12 +246,13 @@ img {
 
 .features__title {
     text-align: center;
-    color: var(--black);
     font-weight: 700;
     font-size: 36px;
     line-height: 120%;
+    padding-bottom: 16px;
+    color: var(--black);
+    font-family: var(--font-title);
     margin: 0;
-    margin-bottom: 16px;
 }
 .features__list {
     width: 864px;
@@ -272,6 +287,7 @@ img {
     margin: 0;
     margin-bottom: 24px;
     color: var(--logo-bg);
+    font-family: var(--font-title);
 }
 
 .features__text {
@@ -302,9 +318,10 @@ img {
     font-weight: 700;
     font-size: 36px;
     line-height: 120%;
-    color: var(--color);
     margin-bottom: 40px;
     white-space: nowrap;
+    color: var(--color);
+    font-family: var(--font-title);
 }
 
 .call-section__link {
