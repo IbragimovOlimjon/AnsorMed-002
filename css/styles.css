@@ -357,8 +357,8 @@ img {
 }
 
 .site-footer__logo {
-    color: var(--color);
     transition: 0.4s ease;
+    color: var(--color);
 }
 
 .site-footer__logo:hover {
