@@ -235,13 +235,13 @@ img {
 
 /* FEATURES */
 .features {
-    padding-top: 120px;
+    padding-top: 130px;
     padding-bottom: 120px;
 }
 
 .features__container {
-    padding-left: 118px;
-    padding-right: 118px;
+    padding-left: 144px;
+    padding-right: 144px;
 }
 
 .features__title {
